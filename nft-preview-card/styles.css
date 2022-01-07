@@ -3,11 +3,70 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 /* Reset CSS - END */
 body{
     background-color: #0D1A2D;
+    line-height: 1.5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
-.container{
-   background-color: hsl(214, 50%, 16%);
-   color: white;
-   width: 500px;
-   height: 500px;
+.card{
+    width: 330px;
+    background-color: #15273F;
+    color: white;
+    border-radius: 10px;
+    /* box-shadow: 4px 1px 21px 21px rgb(1,1,1/21% ); */
+}
+
+.card-body{
+    padding: 20px;
+
+}
+
+.card-img{
+    width: 100%;
+    padding: 10px 0px;
+    height: 300px;
+    border-radius: 10px;
+    object-fit: contain;
+}
+
+.card-title{
+    font-weight: bolder;
+    font-size: 15px;
+}
+
+.card-content{
+    padding-top: 20px;
+    color: #6D8096;
+}
+
+.footer-img{
+    width: 40px;
+    border: 1px solid white;
+    border-radius: 100%;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.card-footer{
+    padding: 20px;
+}
+
+.span{
+    margin-left: 10px;
+}
+
+.footer-container{
+    border-top: 2px solid #417C9B;
 }
