@@ -72,12 +72,8 @@ body{
 }
 
 @media screen and (max-width: 480px){
-    body{
-        height: unset;
-     } 
-    
     .card{
-        height: 76vh;
+        height: 80vh;
         margin: 20px;
     }
     
