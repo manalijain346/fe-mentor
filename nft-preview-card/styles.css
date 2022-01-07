@@ -70,3 +70,15 @@ body{
 .footer-container{
     border-top: 2px solid #417C9B;
 }
+
+@media screen and (max-width: 480px){
+    body{
+        height: unset;
+     } 
+    
+    .card{
+        height: 76vh;
+        margin: 20px;
+    }
+    
+}
