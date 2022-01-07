@@ -3,15 +3,16 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 /* Reset CSS - END */
 body{
     color: white;
+    background: url("images/bg-intro-desktop.png") no-repeat;
+    background-color: #FB7B7B;
 }
 
 .main{
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     height: 100vh;
-    background: url("images/bg-intro-desktop.png") no-repeat;
-    background-color: #FB7B7B;
+    margin-left: 20px;
 }
 
 .learn{
@@ -54,4 +55,51 @@ body{
     border: 1px solid #efefef;
     border-radius: 8px;
     font-size: 18px;
+}
+
+#btn{
+    padding: 17px 35px;
+    margin-bottom: 16px;
+    border: 1px solid #efefef;
+    border-radius: 8px;
+    font-weight: 600;
+    text-transform: uppercase;
+    background-color: rgb(135, 243, 182);
+    width: 100%;
+}
+
+.terms{
+    color: black;
+    font-size: 10px;
+}
+
+#terms-conditions{
+    color :red;
+}
+
+@media screen and (max-width: 480px) {
+    body{
+        background: url("images/bg-intro-mobile.png") no-repeat;
+        background-color: #FB7B7B;
+    }
+
+    .main{
+        flex-direction: column;
+        margin-left: unset;
+    }
+
+    .description{
+        padding: 0px 36px;
+    }
+
+    .learn{
+        width: unset;
+        text-align: center;
+    }
+
+    .main-heading{
+        font-size: 34px;
+        margin-top: 24px;
+    }
+    
 }
