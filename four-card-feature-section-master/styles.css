@@ -2,16 +2,18 @@
 html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
 /* Reset CSS - END */
 body{
- background-color:#FAFAFA;
+ background-color: hsl(0, 0% ,98%);
  line-height: 1.5;
  font-family: 'Poppins', sans-serif;
+ width: 1200px;
+ margin: 0 auto;
 }
 
 .header{
-    width: 500px;
     text-align: center;
-    margin: 0 auto;
     margin-top: 30px;
+    max-width: 600px;
+    margin: 0 auto;
 }
 
 .top-heading{
@@ -28,14 +30,14 @@ body{
 .title-description{
     font-size: 14px;
     font-weight: lighter;
-    color: hsl(229, 6%, 66%)
+    color: hsl(229, 6%, 66%);
 }
 
 .container{
-    display: flex;
-    justify-content: center;
-    padding: 32px;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 30px;
+    gap: 25px;
 }
 
 .card{
@@ -43,10 +45,14 @@ body{
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
     transition: all 0.3s cubic-bezier(.25,.8,.25,1);
     border-radius: 5px;
-    width: 320px;
-    margin: 15px;
-    height: 230px;
+    height: 180px;
     padding: 30px;
+}
+
+#card-container{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
 }
 
 .card:hover{
@@ -55,6 +61,7 @@ body{
 
 #supervisor{
     border-top: 4px solid hsl(180, 62%, 55%);
+    align-self: center;
 }
 
 #team-builder{
@@ -69,6 +76,7 @@ body{
 
 #calculator{
     border-top: 4px solid hsl(212, 86%, 64%);
+    align-self: center;
 }
 
 .card-description{
@@ -85,6 +93,21 @@ body{
 
 .icon-container{
     margin-top: 40px;
-    display: flex;
-    justify-content: end;
+    text-align: right;
+}
+
+.attribution{
+    margin: 20px 0px;
+}
+
+@media screen and (max-width : 480px ) {
+    .container{
+        grid-template-columns: 1fr;
+    }
+
+    body{
+        width: 350px;
+        font-size: 13px;
+    }
+
 }
