@@ -14,21 +14,19 @@ body{
     width: 330px;
     background-color: #15273F;
     color: white;
-    border-radius: 10px;
+    border-radius: 12px;
     /* box-shadow: 4px 1px 21px 21px rgb(1,1,1/21% ); */
 }
 
 .card-body{
     padding: 20px;
-
 }
 
 .card-img{
-    width: 100%;
-    padding: 10px 0px;
+    width: 300px;
+    margin: 16px auto;
     height: 300px;
-    border-radius: 10px;
-    object-fit: contain;
+    border-radius: 12px;
 }
 
 .card-title{
@@ -49,8 +47,9 @@ body{
 
 .flex-container{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     padding-top: 10px;
+    margin-bottom: 12px;
 }
 
 .flex{
@@ -59,17 +58,19 @@ body{
     margin-top: 10px;
 }
 
-.card-footer{
-    padding: 20px;
-}
-
 .span{
     margin-left: 10px;
 }
 
-.footer-container{
-    border-top: 2px solid #417C9B;
+.span-color{
+   color: #00FFF8;
+   margin-left: 10px;
+
 }
+
+/* .footer-container{
+    border-top: 2px solid #417C9B;
+} */
 
 @media screen and (max-width: 480px){
     .card{
