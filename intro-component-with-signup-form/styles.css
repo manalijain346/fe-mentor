@@ -5,6 +5,7 @@ body{
     color: white;
     background: url("images/bg-intro-desktop.png") no-repeat;
     background-color: #FB7B7B;
+    font-family:'Inter', sans-serif;
 }
 
 .main{
