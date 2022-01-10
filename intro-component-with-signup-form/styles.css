@@ -86,6 +86,7 @@ body{
     .main{
         flex-direction: column;
         margin-left: unset;
+        height: unset;
     }
 
     .description{
