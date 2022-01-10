@@ -2,7 +2,7 @@
 html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
 /* Reset CSS - END */
 body{
-    background-color: #0D1A2D;
+    background-color: hsl(217, 54%, 11%);
     line-height: 1.5;
     display: flex;
     justify-content: center;
@@ -12,10 +12,9 @@ body{
 
 .card{
     width: 330px;
-    background-color: #15273F;
+    background-color: hsl(216, 50%, 16%);
     color: white;
     border-radius: 12px;
-    /* box-shadow: 4px 1px 21px 21px rgb(1,1,1/21% ); */
 }
 
 .card-body{
@@ -74,8 +73,8 @@ body{
 
 @media screen and (max-width: 480px){
     .card{
-        height: 80vh;
         margin: 20px;
+        height: unset;
     }
     
 }
