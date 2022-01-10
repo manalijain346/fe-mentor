@@ -4,6 +4,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 body{
     background-color: hsl(217, 54%, 11%);
     line-height: 1.5;
+    color: white;
 }
 
 .container{
@@ -16,7 +17,6 @@ align-items: center;
 .card{
     width: 330px;
     background-color: hsl(216, 50%, 16%);
-    color: white;
     border-radius: 12px;
 }
 
