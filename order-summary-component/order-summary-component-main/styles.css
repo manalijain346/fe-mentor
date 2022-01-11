@@ -30,8 +30,8 @@ body{
 }
 
 .text-content{
-    padding: 24px;
-    margin-bottom: 25px;
+    padding: 18px 25px;
+    margin-bottom: 6px;
 }
 
 .title{
@@ -81,11 +81,16 @@ body{
     border-radius: 12px;
     padding: 20px;
     margin: 20px;
-    font-weight: 700;
+    font-weight: 600;
+    width: 100%;
+    margin: 20px auto;
+    font-size: 18px;
 }
+
 
 .cancel{
     text-decoration: none;
     color: hsl(223, 47%, 23%);
+    display: block;
     text-align: center;
 }
