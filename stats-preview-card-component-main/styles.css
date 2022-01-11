@@ -1,0 +1,81 @@
+/* Reset CSS */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
+/* Reset CSS - END */
+ 
+body{
+    background-color: hsl(233, 47%, 7%);
+    color: white;
+    font-family: 'Inter', sans-serif;
+    line-height: 1.5;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    background-color: hsl(244, 38%, 16%);
+    display: flex;
+    justify-content: center;
+    width: 1140px;
+    border-radius: 8px;
+}
+
+.text-section{
+    padding: 35px;
+}
+
+.text-heading{
+    font-size: 32px;
+    font-weight: 900;
+}
+
+.span{
+    color: hsl(277, 64%, 61%);
+}
+
+.description{
+    font-size: 16px;
+}
+
+.block{
+    height: 100%;
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.data{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.numbers{
+    font-weight: 800;
+}
+
+.title{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 12px;
+    font-family: "Lexend Deca", sans-serif;
+    margin-top: 6px;
+
+}
+
+.image{
+    height: 100%;
+    border-radius: 0px 8px 8px 0px;
+    filter: opacity(0.5) drop-shadow(0 0 0 #AA5CDB);
+}
+
+
