@@ -9,3 +9,5 @@
 * Stats Preview Card Component [Live Demo](https://manalijain346.github.io/fe-mentor/stats-preview-card-component/)
 
 * Order Summary Component [Live Demo](https://manalijain346.github.io/fe-mentor/order-summary-component/)
+
+* Launch Countdown Timer [Live Demo](https://manalijain346.github.io/fe-mentor/launch-countdown-timer/)
