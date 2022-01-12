@@ -44,6 +44,8 @@ body{
 
 .count-down{
     margin-left: 16px;
+    width: 100px;
+    text-align: center;
 }
 
 .time{
