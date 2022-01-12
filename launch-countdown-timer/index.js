@@ -7,6 +7,8 @@ var x=setInterval (function(){
     var minutes = Math.floor( (timeLeft/1000/60) % 60 );
     var seconds = Math.floor( (timeLeft/1000) % 60 );
 
+    hours= hours <10 ? "0"+ hours : hours
+
     document.getElementById("days").innerHTML= days
     document.getElementById("hours").innerHTML= hours
     document.getElementById("minutes").innerHTML= minutes

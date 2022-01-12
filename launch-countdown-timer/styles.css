@@ -18,6 +18,7 @@ body{
     text-transform: uppercase;
     letter-spacing: 3px;
     margin-bottom: 36px;
+    align-self: center;
 }
 
 .image-hills{
@@ -30,7 +31,7 @@ body{
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    min-height: 70vh;
+    height: 70vh;
     background-image: url("images/bg-stars.svg");
 }
 
@@ -70,6 +71,10 @@ body{
 
     .count-down{
         width: 85px;
+    }
+
+    .sub-heading{
+        font-size: 11px;
     }
 
    
