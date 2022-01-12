@@ -43,11 +43,22 @@ body{
 }
 
 .count-down{
-    margin-left: 10px;
+    margin-left: 16px;
 }
 
 .time{
     padding: 20px;
     background-color: hsl(236, 21%, 26%);
+    color: hsl(345, 95%, 68%);
+    font-size: 36px;
     border-radius: 6px;
+}
+
+.sub-heading{
+    text-align: center;
+    color: hsl(237, 18%, 59%);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 14px;
+    margin-top: 20px;
 }
