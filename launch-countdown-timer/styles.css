@@ -64,5 +64,14 @@ body{
 
 @media screen and (max-width:480px) {
 
+    .timer{
+        max-width: 350px;
+        justify-content: center;
+    }
+
+    .count-down{
+        width: 85px;
+    }
+
    
 }
