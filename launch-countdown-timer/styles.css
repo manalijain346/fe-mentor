@@ -21,12 +21,7 @@ body{
 }
 
 .image-hills{
-    position: absolute;
-    bottom: 0;
-}
-
-.image-stars{
-    position: absolute;
+    background-image: url("images/pattern-hills.svg");
 }
 
 .container{
@@ -35,6 +30,7 @@ body{
     flex-direction: column;
     align-items: center;
     min-height: 70vh;
+    background-image: url("images/bg-stars.svg");
 }
 
 .timer{
@@ -63,4 +59,9 @@ body{
     letter-spacing: 2px;
     font-size: 14px;
     margin-top: 20px;
+}
+
+@media screen and (max-width:480px) {
+
+   
 }
