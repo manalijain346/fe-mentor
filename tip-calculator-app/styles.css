@@ -8,20 +8,72 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 
 body{
     font-family: 'Space Mono', monospace;
-    font-size: 24px;
+    font-size: 16px;
     background-color: hsl(185, 41%, 84%);
-    height: 100vh;
-    width: 100%;
+    line-height: 1.5;
+}
+
+.container{
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
 .logo{
-    text-align: center;
+    margin-bottom: 32px;
 }
 
-.card{
+.splitter-body{
     background-color: white;
+    border-radius: 10px;
+    display: flex;
+    padding: 30px;
+    justify-content: space-between;
+    width: 55%;
+}
+
+.splitter-input{
+    max-width: 50%;
+}
+
+.splitter-output{
+    background-color: hsl(183, 100%, 15%);
+    border-radius: 5px;
+    width: 50%;
+    color: ;
+}
+
+.number{
+    display: block;
+    width: 90%;
+    padding: 10px;
+    font-weight: 700;
+    border-radius: 5px;
+    font-size: 18px;
+    text-align: end;
+    background-color:hsl(189, 41%, 97%);
+    color: hsl(183, 100%, 15%);
+    border: 2px solid transparent;
+}
+
+.radio{
+    appearance: none;
+}
+
+.input-tip{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.tip-rate{
+    background-color:hsl(183, 100%, 15%);
+    width: 90px;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
 }

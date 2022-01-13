@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400; 500;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css" type="text/css">
+
+  <title>Frontend Mentor | Tip calculator app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="logo-container">
+      <img src="images/logo.svg" alt="logo" class="logo">
+    </div>
+    <div class="splitter-body">
+      <form class="splitter-input">
+        <div class="input-card">
+          <label for="bill">Bill</label>
+          <span class="error">Can't be zero</span>
+          <div class="input-bill">
+            <img src="images/icon-dollar.svg" class="dollar" alt="dollar">
+            <input type="number" class="number" id="bill" placeholder="0" min="0">
+          </div>
+        </div>
+        <div class="input-card">
+          <h2>Select Tip %</h2>
+          <div class="input-tip">
+            <div class="tip-rate">
+              <input type="radio" name="tip" id="five" value="0.5" class="radio">
+              <label for="5">5%</label>
+            </div>
+            <div class="tip-rate">
+              <input type="radio" name="tip" id="ten" value="0.10" class="radio">
+              <label for="10">10%</label>
+            </div>
+            <div class="tip-rate">
+              <input type="radio" name="tip" id="fifteen" value="0.15" class="radio">
+              <label for="15">15%</label>
+            </div>
+            <div class="tip-rate">
+              <input type="radio" name="tip" id="twenty" value="0.20" class="radio">
+              <label for="20">20%</label>
+            </div>
+            <!-- <div class="tip-rate">
+              <input type="number" name="tip" id="custom" placeholder="Custom" class="number">
+            </div> -->
+          </div>
+        </div>
+        <div class="input-card">
+          <label for="people">Number of people</label>
+          <span class="error">Can't be zero</span>
+          <input type="number" id="people" placeholder="0" min="0" class="number">
+        </div>
+      </form>
+
+
+      <div class="splitter-output">
+        <div class="output-card">
+          <div class="output-text">
+            <h2>Tip Amount</h2>
+            <span>/person</span>
+          </div>
+          <div class="output-result">
+            <img src="images/icon-dollar.svg" alt="dollar" class="dollar">
+            <h2 id="total">0. 00</h2>
+          </div>
+        </div>
+        <button id="reset">RESET</button>
+
+
+      </div>
+
+    </div>
+  </div>
+  <!-- 
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+</body>
+
+</html>
