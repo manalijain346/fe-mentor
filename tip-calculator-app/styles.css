@@ -84,6 +84,7 @@ body{
     width: 50%;
     color: white;
     padding: 20px;
+    position: relative;
 }
 
 .output-card{
@@ -101,7 +102,7 @@ body{
     width: 240px;
     padding: 10px;
     position: absolute;
-    bottom: 23%;
+    bottom: 10%;
     border-radius: 4px;
     background-color: hsl(172, 67%, 45%);
     border: 2px solid transparent;
