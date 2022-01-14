@@ -32,12 +32,10 @@
       <img src="images/logo.svg" alt="logo" class="logo">
     </div>
     <div class="splitter-body">
-      <form class="splitter-input">
+      <div class="splitter-input">
         <div class="input-card">
           <label for="bill">Bill</label>
-          <span class="error">Can't be zero</span>
           <div class="input-bill">
-            <img src="images/icon-dollar.svg" class="dollar" alt="dollar">
             <input type="number" class="number" id="bill" placeholder="0" min="0">
           </div>
         </div>
@@ -45,57 +43,48 @@
           <h2>Select Tip %</h2>
           <div class="input-tip">
             <div class="tip-rate">
-              <input type="radio" name="tip" id="five" value="0.5" class="radio">
-              <label for="5">5%</label>
+              <button class="tip" id="five">5%</button>
             </div>
             <div class="tip-rate">
-              <input type="radio" name="tip" id="ten" value="0.10" class="radio">
-              <label for="10">10%</label>
+              <button class="tip" id="ten">10%</button>
             </div>
             <div class="tip-rate">
-              <input type="radio" name="tip" id="fifteen" value="0.15" class="radio">
-              <label for="15">15%</label>
+              <button class="tip" id="fifteen">15%</button>
             </div>
             <div class="tip-rate">
-              <input type="radio" name="tip" id="twenty" value="0.20" class="radio">
-              <label for="20">20%</label>
+              <button class="tip" id="twenty">20%</button>
             </div>
-            <!-- <div class="tip-rate">
-              <input type="number" name="tip" id="custom" placeholder="Custom" class="number">
-            </div> -->
           </div>
         </div>
         <div class="input-card">
           <label for="people">Number of people</label>
-          <span class="error">Can't be zero</span>
           <input type="number" id="people" placeholder="0" min="0" class="number">
         </div>
-      </form>
-
+      </div>
 
       <div class="splitter-output">
         <div class="output-card">
           <div class="output-text">
             <h2>Tip Amount</h2>
-            <span>/person</span>
+            <span class="span">/person</span>
           </div>
-          <div class="output-result">
-            <img src="images/icon-dollar.svg" alt="dollar" class="dollar">
-            <h2 id="total">0. 00</h2>
+          <div class="output-amount" id="tip-amount">
+            $4.27
+          </div>
+        </div>
+        <div class="output-card">
+          <div class="output-text">
+            <h2>Total</h2>
+            <span class="span">/person</span>
+          </div>
+          <div class="output-amount" id="total">
+            $32.79
           </div>
         </div>
         <button id="reset">RESET</button>
-
-
       </div>
-
     </div>
   </div>
-  <!-- 
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-    Coded by <a href="#">Your Name Here</a>.
-  </div> -->
 </body>
 
 </html>

@@ -8,7 +8,6 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 
 body{
     font-family: 'Space Mono', monospace;
-    font-size: 16px;
     background-color: hsl(185, 41%, 84%);
     line-height: 1.5;
 }
@@ -27,22 +26,21 @@ body{
 
 .splitter-body{
     background-color: white;
-    border-radius: 10px;
+    border-radius: 12px;
     display: flex;
-    padding: 30px;
+    padding: 20px;
     justify-content: space-between;
-    width: 55%;
+    width: 600px;
 }
 
-.splitter-input{
-    max-width: 50%;
+.input-card{
+    margin-top: 12px;
 }
 
-.splitter-output{
-    background-color: hsl(183, 100%, 15%);
-    border-radius: 5px;
-    width: 50%;
-    color: ;
+#bill{
+    background-image: url(images/icon-dollar.svg);
+    background-repeat: no-repeat;
+    background-position: left;
 }
 
 .number{
@@ -58,22 +56,61 @@ body{
     border: 2px solid transparent;
 }
 
-.radio{
-    appearance: none;
-}
-
 .input-tip{
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
 
-.tip-rate{
+.tip{
     background-color:hsl(183, 100%, 15%);
-    width: 90px;
+    width: 80px;
     padding: 10px;
     margin: 5px;
     text-align: center;
     border-radius: 5px;
     color: white;
-    font-size: 20px;
+    border: 2px solid transparent;
+}
+
+#people{
+    background-image: url(images/icon-person.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.splitter-output{
+    background-color: hsl(183, 100%, 15%);
+    border-radius: 5px;
+    width: 50%;
+    color: white;
+    padding: 20px;
+}
+
+.output-card{
+    margin-top: 32px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.span{
+    font-size: 14px;
+    color: hsl(172, 67%, 45%);;
+}
+
+#reset{
+    width: 240px;
+    padding: 10px;
+    position: absolute;
+    bottom: 23%;
+    border-radius: 4px;
+    background-color: hsl(172, 67%, 45%);
+    border: 2px solid transparent;
+    color: hsl(183, 100%, 15%);
+    font-weight: 700;
+    text-align: center;
+}
+
+.output-amount{
+    color: hsl(172, 67%, 45%);
+    font-size: 28px;
 }
