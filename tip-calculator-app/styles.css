@@ -125,6 +125,10 @@ body{
         justify-content: flex-end;
     }
 
+    .logo{
+        margin-top: 10px;
+    }
+
     .splitter-body{
         flex-direction: column;
         width: 100%;
