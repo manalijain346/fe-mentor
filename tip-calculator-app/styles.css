@@ -33,14 +33,12 @@ body{
     width: 600px;
 }
 
-.input-card{
-    margin-top: 12px;
+.splitter-input{
+    padding-right: 20px;
 }
 
-#bill{
-    background-image: url(images/icon-dollar.svg);
-    background-repeat: no-repeat;
-    background-position: left;
+.input-card{
+    margin-top: 12px;
 }
 
 .number{
@@ -54,28 +52,33 @@ body{
     background-color:hsl(189, 41%, 97%);
     color: hsl(183, 100%, 15%);
     border: 2px solid transparent;
+    padding-left: 20px;
 }
 
 .input-tip{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin-top: 10px;
 }
 
 .tip{
     background-color:hsl(183, 100%, 15%);
-    width: 80px;
     padding: 10px;
-    margin: 5px;
     text-align: center;
     border-radius: 5px;
     color: white;
     border: 2px solid transparent;
 }
 
-#people{
-    background-image: url(images/icon-person.svg);
-    background-repeat: no-repeat;
-    background-position: left;
+.input-with-icon{
+    position: relative;
+}
+
+.input-icon{
+    position: absolute;
+    top: 12px;
+    left: 5px;
 }
 
 .splitter-output{
@@ -133,13 +136,6 @@ body{
         width: 350px;
     }
 
-    .input-tip{
-        grid-column-gap: 100px;
-    }
-
-    .tip{
-        width: 100px;
-    }
 
     .splitter-output{
         width: 95%;
