@@ -17,7 +17,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-     min-height: 100vh;
+    min-height: 100vh;
 }
 
 .logo{
@@ -134,6 +134,10 @@ body{
 
     .number{
         width: 350px;
+    }
+
+    .splitter-input{
+        padding-left: unset;
     }
 
 
