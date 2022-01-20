@@ -117,5 +117,9 @@ body{
     .title-description{
         width: unset;
     }
+
+    .card{
+        width: unset;
+    }
     
 }
