@@ -27,6 +27,4 @@ var x = setInterval(function () {
     hoursLabel.innerHTML = hours
     minutesLabel.innerHTML = minutes
     secondsLabel.innerHTML = seconds
-
-    
 }, )
