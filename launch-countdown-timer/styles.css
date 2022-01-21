@@ -18,7 +18,7 @@ body{
     text-transform: uppercase;
     letter-spacing: 3px;
     margin-bottom: 36px;
-    align-self: center;
+    text-align: center;
 }
 
 .image-hills{
@@ -37,7 +37,6 @@ body{
 
 .timer{
     display: flex;
-    justify-content: space-around;
 }
 
 .count-down{
@@ -47,7 +46,7 @@ body{
 }
 
 .time{
-    padding: 20px;
+    padding: 16px;
     background-color: hsl(236, 21%, 26%);
     color: hsl(345, 95%, 68%);
     font-size: 36px;
@@ -65,16 +64,18 @@ body{
 
 @media screen and (max-width:480px) {
 
-    .container{
-        max-width: 400px;
-    }
-
     .count-down{
-        width: unset;
+        width: 75px;
+        margin: 0px 6px;
     }
 
     .sub-heading{
-        font-size: 11px;
+        font-size: 10px;
+    }
+
+    .title{
+        width: 64%;
+        text-align: center;
     }
 
    
